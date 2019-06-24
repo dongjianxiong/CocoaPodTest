@@ -1,0 +1,16 @@
+PODS:
+  - DJXEventDeliveryChainTest (0.0.1)
+
+DEPENDENCIES:
+  - DJXEventDeliveryChainTest (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DJXEventDeliveryChainTest
+
+SPEC CHECKSUMS:
+  DJXEventDeliveryChainTest: 435ab6a8206c6a48b21f560d152100655fc40db4
+
+PODFILE CHECKSUM: da0a6dc9a4ffd42c5cd460c942492a77e0afa399
+
+COCOAPODS: 1.5.3

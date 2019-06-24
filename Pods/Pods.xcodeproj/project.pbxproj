@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D2981B3F63D14F88FF118AA95A08CE /* DJXUIViewD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2F425795511B7E5263B1F78DA422EE /* DJXUIViewD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09FE9856C30CDF5D4734C90B87B55614 /* DJXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56CEDFE123704DB4BBA4D37BBE17939 /* DJXViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		117EA506914AB8C8AC0CCEB1508B154A /* DJXUIViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9D14F0EEC4DC2B6BBED40C8DBC38E3 /* DJXUIViewC.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14B81933ACC09234CBEDE31FB17CD261 /* DJXUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EB69EBEB58A37433D1AF2B0527AD7D /* DJXUIView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		362326F2302567CA1AD2EC3E85EAC0F3 /* DJXUITapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC2A3B75ACFD92ABCC7F2545C98913A /* DJXUITapGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3696B21854B2232B5CCE6DB7B60EB309 /* DJXUIViewA.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9956882C2EB844BA58D1F812135767 /* DJXUIViewA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		390F56837A43EEA763E797E00661991F /* DJXUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FF958CB4F1B32A9AD68D5A621596F6 /* DJXUIView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		42DD1FF25FEE2782B091A98931F41BAE /* DJXUIViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3542BE781ABFDB95ACF46E700AE181 /* DJXUIViewA.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		462BC5DF43D78059AA90A20FA9BE6EBB /* DJXUIViewC.h in Headers */ = {isa = PBXBuildFile; fileRef = BB09DF0E80CBE70E56CB2426B9A7D1AE /* DJXUIViewC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58E4F0639B098E320E07C9D05A591693 /* DJXUIViewB.h in Headers */ = {isa = PBXBuildFile; fileRef = 53BF99321D6466E48D829D52F6E3FDBA /* DJXUIViewB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A09241BB87D1319BD4ABA5108056E3C /* Pods-CocoaPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B272BECB810D4E2A4F0CAEA76C7B737 /* Pods-CocoaPodTest-dummy.m */; };
+		5D3CBD48E64A0E662831CD319B86837C /* DJXUIButtonE.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E161C21BA07FA3E116A7A81F574522 /* DJXUIButtonE.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B0D3865258720E61B4A9711B04527BF /* DJXUIButtonF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1FA6E7BEF05D8F588574A92CD6BE64 /* DJXUIButtonF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85DFA969ECBD5A7439D7D4C9A4812F49 /* DJXUIViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = A15962162810B5B7BDC63DD2CCE8039D /* DJXUIViewB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9675E88C54EB52AD0F13A96E9617E6D0 /* DJXViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 601CE063792074D6FEA98F59990D4CF6 /* DJXViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0859AA7139712A8B914FB41994A8FEB /* DJXUIButtonF.h in Headers */ = {isa = PBXBuildFile; fileRef = 449E1774A8771DE98B7565396550BDF0 /* DJXUIButtonF.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD65DC50BC5E19E9FBEAAA77FCBC9CB1 /* DJXUITapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72785C51285ACFAB2E5DA9383BAEFF8F /* DJXUITapGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DF35A120F7C64D905CEA0AF7D29CB3E8 /* DJXUIViewD.m in Sources */ = {isa = PBXBuildFile; fileRef = 419A6A5A285DFC8DE9AED606434A6C10 /* DJXUIViewD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7FC359E43CA4DDE6F3DD52ED956CDB4 /* DJXEventDeliveryChainTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FC404F96D0991C7C559CBC27DA36B8 /* DJXEventDeliveryChainTest-dummy.m */; };
+		FEFF2D8DB1393077869C9BF2DCCB2298 /* DJXUIButtonE.m in Sources */ = {isa = PBXBuildFile; fileRef = 5965AA0D7DBCD572BB46B8C1F2051611 /* DJXUIButtonE.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B123516A9313E4A432C170AB1B9FD863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D0ED4B18607152876384BBF34F47E7;
+			remoteInfo = DJXEventDeliveryChainTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067732EEBBDB5113A96389FD9A8388EB /* Pods-CocoaPodTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FD6714D5D196424CDDF84F87B3EC4C0 /* Pods-CocoaPodTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaPodTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23AA4AC0390498EBE2249F716DC108E5 /* DJXEventDeliveryChainTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJXEventDeliveryChainTest.xcconfig; sourceTree = "<group>"; };
+		33FC404F96D0991C7C559CBC27DA36B8 /* DJXEventDeliveryChainTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJXEventDeliveryChainTest-dummy.m"; sourceTree = "<group>"; };
+		3E976F5888816BB5F6502EFCD231FADB /* Pods-CocoaPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodTest.debug.xcconfig"; sourceTree = "<group>"; };
+		419A6A5A285DFC8DE9AED606434A6C10 /* DJXUIViewD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXUIViewD.m; path = Classes/CommonViews/DJXUIViewD.m; sourceTree = "<group>"; };
+		43E161C21BA07FA3E116A7A81F574522 /* DJXUIButtonE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXUIButtonE.h; path = Classes/UIcontrol/DJXUIButtonE.h; sourceTree = "<group>"; };
+		449E1774A8771DE98B7565396550BDF0 /* DJXUIButtonF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXUIButtonF.h; path = Classes/UIcontrol/DJXUIButtonF.h; sourceTree = "<group>"; };
+		490DF22CFFBC42C996BF7A7355181F6B /* DJXEventDeliveryChainTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJXEventDeliveryChainTest-prefix.pch"; sourceTree = "<group>"; };
+		4E9956882C2EB844BA58D1F812135767 /* DJXUIViewA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXUIViewA.h; path = Classes/CommonViews/DJXUIViewA.h; sourceTree = "<group>"; };
+		53BF99321D6466E48D829D52F6E3FDBA /* DJXUIViewB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXUIViewB.h; path = Classes/CommonViews/DJXUIViewB.h; sourceTree = "<group>"; };
+		57FF958CB4F1B32A9AD68D5A621596F6 /* DJXUIView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXUIView.m; path = Classes/CommonViews/DJXUIView.m; sourceTree = "<group>"; };
+		5965AA0D7DBCD572BB46B8C1F2051611 /* DJXUIButtonE.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXUIButtonE.m; path = Classes/UIcontrol/DJXUIButtonE.m; sourceTree = "<group>"; };
+		5A1FA6E7BEF05D8F588574A92CD6BE64 /* DJXUIButtonF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXUIButtonF.m; path = Classes/UIcontrol/DJXUIButtonF.m; sourceTree = "<group>"; };
+		5D742EEA0A8AC20E6E714F957936FE24 /* Pods-CocoaPodTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodTest-resources.sh"; sourceTree = "<group>"; };
+		5F2F425795511B7E5263B1F78DA422EE /* DJXUIViewD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXUIViewD.h; path = Classes/CommonViews/DJXUIViewD.h; sourceTree = "<group>"; };
+		601CE063792074D6FEA98F59990D4CF6 /* DJXViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXViewController.h; path = Classes/ViewControllers/DJXViewController.h; sourceTree = "<group>"; };
+		72785C51285ACFAB2E5DA9383BAEFF8F /* DJXUITapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXUITapGestureRecognizer.m; path = Classes/Gestures/DJXUITapGestureRecognizer.m; sourceTree = "<group>"; };
+		87AAC4A39205A283FF6A95414DAAA680 /* libPods-CocoaPodTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CocoaPodTest.a"; path = "libPods-CocoaPodTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B272BECB810D4E2A4F0CAEA76C7B737 /* Pods-CocoaPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPodTest-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15962162810B5B7BDC63DD2CCE8039D /* DJXUIViewB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXUIViewB.m; path = Classes/CommonViews/DJXUIViewB.m; sourceTree = "<group>"; };
+		A2B4E794C70B73931CD91CB8485D1C5A /* libDJXEventDeliveryChainTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDJXEventDeliveryChainTest.a; path = libDJXEventDeliveryChainTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EB69EBEB58A37433D1AF2B0527AD7D /* DJXUIView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXUIView.h; path = Classes/CommonViews/DJXUIView.h; sourceTree = "<group>"; };
+		BB09DF0E80CBE70E56CB2426B9A7D1AE /* DJXUIViewC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXUIViewC.h; path = Classes/CommonViews/DJXUIViewC.h; sourceTree = "<group>"; };
+		CDC2A3B75ACFD92ABCC7F2545C98913A /* DJXUITapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJXUITapGestureRecognizer.h; path = Classes/Gestures/DJXUITapGestureRecognizer.h; sourceTree = "<group>"; };
+		DE3542BE781ABFDB95ACF46E700AE181 /* DJXUIViewA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXUIViewA.m; path = Classes/CommonViews/DJXUIViewA.m; sourceTree = "<group>"; };
+		E46C5755B47C6CA870C338400A763F1F /* Pods-CocoaPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodTest.release.xcconfig"; sourceTree = "<group>"; };
+		E56CEDFE123704DB4BBA4D37BBE17939 /* DJXViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXViewController.m; path = Classes/ViewControllers/DJXViewController.m; sourceTree = "<group>"; };
+		E738FBDD72D3A01F7A7EE3155C0DC34A /* Pods-CocoaPodTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodTest-frameworks.sh"; sourceTree = "<group>"; };
+		FF9D14F0EEC4DC2B6BBED40C8DBC38E3 /* DJXUIViewC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJXUIViewC.m; path = Classes/CommonViews/DJXUIViewC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7854E71F117321CD00F42E00A60ED211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890CBE6175A236AAB0262B99248F717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B33E9C24BA357870F53B3401D9E4B61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23AA4AC0390498EBE2249F716DC108E5 /* DJXEventDeliveryChainTest.xcconfig */,
+				33FC404F96D0991C7C559CBC27DA36B8 /* DJXEventDeliveryChainTest-dummy.m */,
+				490DF22CFFBC42C996BF7A7355181F6B /* DJXEventDeliveryChainTest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DJXEventDeliveryChainTest";
+			sourceTree = "<group>";
+		};
+		4D240794B1A14F402D8EC4A57835C950 /* DJXEventDeliveryChainTest */ = {
+			isa = PBXGroup;
+			children = (
+				43E161C21BA07FA3E116A7A81F574522 /* DJXUIButtonE.h */,
+				5965AA0D7DBCD572BB46B8C1F2051611 /* DJXUIButtonE.m */,
+				449E1774A8771DE98B7565396550BDF0 /* DJXUIButtonF.h */,
+				5A1FA6E7BEF05D8F588574A92CD6BE64 /* DJXUIButtonF.m */,
+				CDC2A3B75ACFD92ABCC7F2545C98913A /* DJXUITapGestureRecognizer.h */,
+				72785C51285ACFAB2E5DA9383BAEFF8F /* DJXUITapGestureRecognizer.m */,
+				A5EB69EBEB58A37433D1AF2B0527AD7D /* DJXUIView.h */,
+				57FF958CB4F1B32A9AD68D5A621596F6 /* DJXUIView.m */,
+				4E9956882C2EB844BA58D1F812135767 /* DJXUIViewA.h */,
+				DE3542BE781ABFDB95ACF46E700AE181 /* DJXUIViewA.m */,
+				53BF99321D6466E48D829D52F6E3FDBA /* DJXUIViewB.h */,
+				A15962162810B5B7BDC63DD2CCE8039D /* DJXUIViewB.m */,
+				BB09DF0E80CBE70E56CB2426B9A7D1AE /* DJXUIViewC.h */,
+				FF9D14F0EEC4DC2B6BBED40C8DBC38E3 /* DJXUIViewC.m */,
+				5F2F425795511B7E5263B1F78DA422EE /* DJXUIViewD.h */,
+				419A6A5A285DFC8DE9AED606434A6C10 /* DJXUIViewD.m */,
+				601CE063792074D6FEA98F59990D4CF6 /* DJXViewController.h */,
+				E56CEDFE123704DB4BBA4D37BBE17939 /* DJXViewController.m */,
+				3B33E9C24BA357870F53B3401D9E4B61 /* Support Files */,
+			);
+			name = DJXEventDeliveryChainTest;
+			path = DJXEventDeliveryChainTest;
+			sourceTree = "<group>";
+		};
+		57D6687529B0547FD5F4D044AE0EA838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B4E794C70B73931CD91CB8485D1C5A /* libDJXEventDeliveryChainTest.a */,
+				87AAC4A39205A283FF6A95414DAAA680 /* libPods-CocoaPodTest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E4CE068B313980A60A607D3520AD9B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A922383AA7194150E4B294253915463F /* Pods-CocoaPodTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				AAC30557179FEEC79B52D8A2D2A4F667 /* Pods */,
+				57D6687529B0547FD5F4D044AE0EA838 /* Products */,
+				5E4CE068B313980A60A607D3520AD9B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A922383AA7194150E4B294253915463F /* Pods-CocoaPodTest */ = {
+			isa = PBXGroup;
+			children = (
+				1FD6714D5D196424CDDF84F87B3EC4C0 /* Pods-CocoaPodTest-acknowledgements.markdown */,
+				067732EEBBDB5113A96389FD9A8388EB /* Pods-CocoaPodTest-acknowledgements.plist */,
+				8B272BECB810D4E2A4F0CAEA76C7B737 /* Pods-CocoaPodTest-dummy.m */,
+				E738FBDD72D3A01F7A7EE3155C0DC34A /* Pods-CocoaPodTest-frameworks.sh */,
+				5D742EEA0A8AC20E6E714F957936FE24 /* Pods-CocoaPodTest-resources.sh */,
+				3E976F5888816BB5F6502EFCD231FADB /* Pods-CocoaPodTest.debug.xcconfig */,
+				E46C5755B47C6CA870C338400A763F1F /* Pods-CocoaPodTest.release.xcconfig */,
+			);
+			name = "Pods-CocoaPodTest";
+			path = "Target Support Files/Pods-CocoaPodTest";
+			sourceTree = "<group>";
+		};
+		AAC30557179FEEC79B52D8A2D2A4F667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D240794B1A14F402D8EC4A57835C950 /* DJXEventDeliveryChainTest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4394B94F27D17922AEED68B7B53E4652 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3CBD48E64A0E662831CD319B86837C /* DJXUIButtonE.h in Headers */,
+				B0859AA7139712A8B914FB41994A8FEB /* DJXUIButtonF.h in Headers */,
+				362326F2302567CA1AD2EC3E85EAC0F3 /* DJXUITapGestureRecognizer.h in Headers */,
+				14B81933ACC09234CBEDE31FB17CD261 /* DJXUIView.h in Headers */,
+				3696B21854B2232B5CCE6DB7B60EB309 /* DJXUIViewA.h in Headers */,
+				58E4F0639B098E320E07C9D05A591693 /* DJXUIViewB.h in Headers */,
+				462BC5DF43D78059AA90A20FA9BE6EBB /* DJXUIViewC.h in Headers */,
+				09D2981B3F63D14F88FF118AA95A08CE /* DJXUIViewD.h in Headers */,
+				9675E88C54EB52AD0F13A96E9617E6D0 /* DJXViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89A0C8A89AC3DA3D3AA1ABC69C785B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		670393B5BB8B6DE57E93F5F4D443C78A /* Pods-CocoaPodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01AFB26C5C555FB7C0870F90F83820D /* Build configuration list for PBXNativeTarget "Pods-CocoaPodTest" */;
+			buildPhases = (
+				B89A0C8A89AC3DA3D3AA1ABC69C785B2 /* Headers */,
+				50F93841C3957FA50C45A185AF187827 /* Sources */,
+				890CBE6175A236AAB0262B99248F717A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2DB671DF5991E64F99B9EE26232EF2E /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoaPodTest";
+			productName = "Pods-CocoaPodTest";
+			productReference = 87AAC4A39205A283FF6A95414DAAA680 /* libPods-CocoaPodTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D8D0ED4B18607152876384BBF34F47E7 /* DJXEventDeliveryChainTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292586E0A390250F9463C1369EBFB2C7 /* Build configuration list for PBXNativeTarget "DJXEventDeliveryChainTest" */;
+			buildPhases = (
+				4394B94F27D17922AEED68B7B53E4652 /* Headers */,
+				3540579692236D6F6FF2CA0A8B4C0EC2 /* Sources */,
+				7854E71F117321CD00F42E00A60ED211 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJXEventDeliveryChainTest;
+			productName = DJXEventDeliveryChainTest;
+			productReference = A2B4E794C70B73931CD91CB8485D1C5A /* libDJXEventDeliveryChainTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 57D6687529B0547FD5F4D044AE0EA838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D0ED4B18607152876384BBF34F47E7 /* DJXEventDeliveryChainTest */,
+				670393B5BB8B6DE57E93F5F4D443C78A /* Pods-CocoaPodTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3540579692236D6F6FF2CA0A8B4C0EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FC359E43CA4DDE6F3DD52ED956CDB4 /* DJXEventDeliveryChainTest-dummy.m in Sources */,
+				FEFF2D8DB1393077869C9BF2DCCB2298 /* DJXUIButtonE.m in Sources */,
+				6B0D3865258720E61B4A9711B04527BF /* DJXUIButtonF.m in Sources */,
+				CD65DC50BC5E19E9FBEAAA77FCBC9CB1 /* DJXUITapGestureRecognizer.m in Sources */,
+				390F56837A43EEA763E797E00661991F /* DJXUIView.m in Sources */,
+				42DD1FF25FEE2782B091A98931F41BAE /* DJXUIViewA.m in Sources */,
+				85DFA969ECBD5A7439D7D4C9A4812F49 /* DJXUIViewB.m in Sources */,
+				117EA506914AB8C8AC0CCEB1508B154A /* DJXUIViewC.m in Sources */,
+				DF35A120F7C64D905CEA0AF7D29CB3E8 /* DJXUIViewD.m in Sources */,
+				09FE9856C30CDF5D4734C90B87B55614 /* DJXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F93841C3957FA50C45A185AF187827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A09241BB87D1319BD4ABA5108056E3C /* Pods-CocoaPodTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2DB671DF5991E64F99B9EE26232EF2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DJXEventDeliveryChainTest;
+			target = D8D0ED4B18607152876384BBF34F47E7 /* DJXEventDeliveryChainTest */;
+			targetProxy = B123516A9313E4A432C170AB1B9FD863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A9F1CB27AAD9252888A327341511EAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AA4AC0390498EBE2249F716DC108E5 /* DJXEventDeliveryChainTest.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DJXEventDeliveryChainTest/DJXEventDeliveryChainTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DJXEventDeliveryChainTest;
+				PRODUCT_NAME = DJXEventDeliveryChainTest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBC5D7E75C3C3F319A8D0A0FCA286BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AA4AC0390498EBE2249F716DC108E5 /* DJXEventDeliveryChainTest.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DJXEventDeliveryChainTest/DJXEventDeliveryChainTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DJXEventDeliveryChainTest;
+				PRODUCT_NAME = DJXEventDeliveryChainTest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0822F68B2EA8393F1EA5318C341FC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E976F5888816BB5F6502EFCD231FADB /* Pods-CocoaPodTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7D38B70A1D5A9743B64DC99BAE7FE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46C5755B47C6CA870C338400A763F1F /* Pods-CocoaPodTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292586E0A390250F9463C1369EBFB2C7 /* Build configuration list for PBXNativeTarget "DJXEventDeliveryChainTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5D7E75C3C3F319A8D0A0FCA286BBA /* Debug */,
+				A9F1CB27AAD9252888A327341511EAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01AFB26C5C555FB7C0870F90F83820D /* Build configuration list for PBXNativeTarget "Pods-CocoaPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0822F68B2EA8393F1EA5318C341FC28 /* Debug */,
+				E7D38B70A1D5A9743B64DC99BAE7FE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
